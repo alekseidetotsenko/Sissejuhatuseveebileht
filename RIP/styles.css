@@ -50,7 +50,7 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-  color: black;
+  color: rgb(0, 0, 0);
 }
 
 .portfolio-items-wrapper {
