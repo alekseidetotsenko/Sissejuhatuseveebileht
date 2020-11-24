@@ -113,4 +113,10 @@ body {
 
 .profile-content-wrapper h1 {
   color: lightseagreen;
+  font-weight: bolder;
+}
+
+.profile-content-wrapper h2 {
+  color: lightseagreen;
+  font-weight: lighter;
 }
