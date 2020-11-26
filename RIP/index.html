@@ -12,24 +12,24 @@
   <div class="container">
     <div class="navi_ymbris">
       <div class="vasask_pool">
-        <div class="nav-link-wrapper active-nav-link">
+        <div class="navi_linkide_ymbris navi_link_aktiivne">
           <a href="index.html">Avaleht</a>
         </div>
 
-        <div class="nav-link-wrapper">
+        <div class="navi_linkide_ymbris">
           <a href="kultuur.html">Kultuur</a>
         </div>
 
-        <div class="nav-link-wrapper">
+        <div class="navi_linkide_ymbris">
           <a href="Seiklus.html">Seiklus</a>
         </div>
 
-        <div class="nav-link-wrapper">
+        <div class="navi_linkide_ymbris">
           <a href="sport.html">Sport</a>
         </div>
 
       </div>
-      <div class="right-side">
+      <div class="parem_pool">
         <div class="brand">
           ACTIONISTA
         </div>
@@ -38,30 +38,30 @@
 
     
     </div>
-    <div class="content-wrapper">
-      <div class="portfolio-items-wrapper">
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/kultuur.jpg)"></div>
+    <div class="sisu_ymbris">
+      <div class="avalehe_elementide_ymbris">
+        <div class="avalehe_elemendi_ymbris">
+          <div class="avalehe-img-background" style="background-image:url(images/kultuur.jpg)"></div>
           <a href="kultuur.html">
-          <div class="img-text-wrapper">
+          <div class="pildi_teksti_ymbris">
             <div class="subtitle">Avasta üliõpilaslinnas peituvaid kultuurirajatisi.</div>
           </div>
           </a>
         </div>
 
-        <div class="portfolio-item-wrapper"> 
-          <div class="portfolio-img-background" style="background-image:url(images/seiklus.png)"></div>
+        <div class="avalehe_elemendi_ymbris"> 
+          <div class="avalehe-img-background" style="background-image:url(images/seiklus.png)"></div>
           <a href="Seiklus.html">
-          <div class="img-text-wrapper">
+          <div class="pildi_teksti_ymbris">
             <div class="subtitle">Elu on seiklus. Tutvu põnevate tegevustega.</div>
           </div>
           </a>
         </div>
 
-        <div class="portfolio-item-wrapper">
-          <div class="portfolio-img-background" style="background-image:url(images/sport.jpg)"></div>
+        <div class="avalehe_elemendi_ymbris">
+          <div class="avalehe-img-background" style="background-image:url(images/sport.jpg)"></div>
           <a href="sport.html">
-          <div class="img-text-wrapper">
+          <div class="pildi_teksti_ymbris">
             <div class="subtitle">Tartu  linna ja Tartumaa sportimisvõimalused.</div>
             </div>
           </a>
@@ -71,17 +71,17 @@
 
 
 <script>
-  const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+  const avaleheItems = document.querySelectorAll('.avalehe_elemendi_ymbris');
 
-  portfolioItems.forEach(portfolioItem => {
-    portfolioItem.addEventListener('mouseover', () => {
-      console.log(portfolioItem.childNodes[1].classList)
-      portfolioItem.childNodes[1].classList.add('image-blur');
+  avaleheItems.forEach(avaleheItem => {
+    avaleheItem.addEventListener('mouseover', () => {
+      console.log(avaleheItem.childNodes[1].classList)
+      avaleheItem.childNodes[1].classList.add('image-blur');
     });
 
-    portfolioItem.addEventListener('mouseout', () => {
-      console.log(portfolioItem.childNodes[1].classList)
-      portfolioItem.childNodes[1].classList.remove('image-blur');
+    avaleheItem.addEventListener('mouseout', () => {
+      console.log(avaleheItem.childNodes[1].classList)
+      avaleheItem.childNodes[1].classList.remove('image-blur');
     });
   });
 

@@ -25,44 +25,44 @@ body {
   font-size: 0.9rem;
 }
 
-.nav-link-wrapper {
+.navi_linkide_ymbris {
   height: 22px;
   border-bottom: 1px solid transparent;
   transition: border-bottom 0.5s;
 }
 
-.active-nav-link {
+.navi_link_aktiivne {
   border-bottom: 1px solid black;
 }
 
-.active-nav-link a {
+.navi_link_aktiivne a {
   color: rgb(73, 23, 23) !important;
 }
 
-.nav-link-wrapper a {
+.navi_linkide_ymbris a {
   color: hsl(240, 3%, 22%);
   text-decoration: none;
   transition: color 0.5s;
 }
 
-.nav-link-wrapper:hover {
+.navi_linkide_ymbris:hover {
   border-bottom: 1px solid black;
 }
 
-.nav-link-wrapper a:hover {
+.navi_linkide_ymbris a:hover {
   color: rgb(0, 0, 0);
 }
 
-.portfolio-items-wrapper {
+.avalehe_elementide_ymbris {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.portfolio-item-wrapper {
+.avalehe_elemendi_ymbris {
   position: relative;
 }
 
-.portfolio-img-background {
+.avalehe-img-background {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,7 +70,7 @@ body {
   width: 100%;
 }
 
-.img-text-wrapper {
+.pildi_teksti_ymbris {
   position: absolute;
   top: 0;
   display: flex;
@@ -83,7 +83,7 @@ body {
   padding-right: 100px;
 }
 
-.img-text-wrapper .subtitle {
+.pildi_teksti_ymbris .subtitle {
   transition: 1s;
   color: transparent;
 }
@@ -93,30 +93,30 @@ body {
   filter: brightness(10%);
 }
 
-.img-text-wrapper:hover .subtitle {
+.pildi_teksti_ymbris:hover .subtitle {
   color: lightseagreen;
   font-weight: 600;
 }
 
-.two-column-wrapper {
+.kahe_tulba_sisu_ymbris {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
-.profile-image-wrapper img {
+.vahelehtede_pildi_ymbris img {
   width: 100%;
 }
 
-.profile-content-wrapper {
+.vahelehe-sisu_ymbris {
   padding: 30px;
 }
 
-.profile-content-wrapper h1 {
+.vahelehe-sisu_ymbris h1 {
   color: lightseagreen;
   font-weight: bolder;
 }
 
-.profile-content-wrapper h2 {
+.vahelehe-sisu_ymbris h2 {
   color: lightseagreen;
   font-weight: lighter;
 }
