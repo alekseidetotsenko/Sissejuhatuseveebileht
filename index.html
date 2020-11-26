@@ -73,12 +73,13 @@
 <script>
   const avaleheItems = document.querySelectorAll('.avalehe_elemendi_ymbris');
 
+  <!-- läheb käima kui kursor liigub peale, pilt tumeneb ja hägustub, ilmub tekst ning tekst suureneb  -->
   avaleheItems.forEach(avaleheItem => {
     avaleheItem.addEventListener('mouseover', () => {
       console.log(avaleheItem.childNodes[1].classList)
       avaleheItem.childNodes[1].classList.add('image-blur');
     });
-
+    <!-- läheb käima kui kursor liigub ära, pilt selgineb, tekst hääbub ja kaob  -->
     avaleheItem.addEventListener('mouseout', () => {
       console.log(avaleheItem.childNodes[1].classList)
       avaleheItem.childNodes[1].classList.remove('image-blur');
